@@ -2,21 +2,6 @@
 
 
 o	BPMN diagram.
-Cliente         Cajero                Sistema
-   │               │                     │
-   │──────────────▶│ Inicia compra       │
-   │               │───────────────────▶│ Verifica si cliente existe
-   │               │                     │
-   │               │◀───────────────────│ Solicita registro si no existe
-   │               │ Registra nuevo cliente
-   │──────────────▶│ Selecciona productos
-   │               │───────────────────▶│ Registra compra y genera ticket
-   │               │                     │
-   │               │◀───────────────────│ Muestra confirmación
-   │               │                     │
-   │──────────────▶│ Fin del proceso
-
-
 o	Class diagrams
 +----------------+       +----------------+        +-----------------+
 |   Cliente      |       |   Compra       |        |   Producto      |
